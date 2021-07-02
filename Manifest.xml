@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.studentregistration">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentRegistration">
+        <activity android:name=".Form"></activity>
+        <activity
+            android:name=".Registrationform"
+            android:label="@string/title_activity_registrationform"
+            android:theme="@style/Theme.StudentRegistration.NoActionBar"
+           />
+        <activity android:name=".Contactus" />
+        <activity
+            android:name=".otp"
+            android:label="OTP GENERATION"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".contactus"
+            android:label="CONTACT US"
+            android:parentActivityName=".MainActivity4"
+             />
+        <activity
+            android:name=".MainActivity4"
+            android:label="ABOUT COURSES"
+            android:parentActivityName=".MainActivity3" />
+        <activity
+            android:name=".MainActivity3"
+            android:label="LOGIN PAGE FOR ADMIN"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="ADMIN STUDENT PAGE"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
