@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">StudentRegistration</string>
+
+    <string name="http_gmail_com">http://gmail.com</string>
+    <string name="sanafarooqui2002_gmail_com">sanafarooqui2002@gmail.com</string>
+    <string name="login">login</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="about">ABOUT US</string>
+    <string name="student">STUDENT</string>
+    <string name="admin">ADMIN</string>
+    <string name="name1">Name</string>
+    <string name="log">LOGIN</string>
+    <string name="AI">Artificial Intelligence</string>
+    <string name="AIinfo">Artificial intelligence is intelligence demonstrated by
+        machines,unlike the natural intelligence displayed by humans
+        and animals,which involves consciousness and emotionality.The distinction between the former and the latter categories is often revealed by the acronym chosen. \'Strong\' AI is usually labelled as artificial general intelligence (AGI) while attempts to emulate \'natural\' intelligence have been called artificial biological intelligence (ABI). Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of achieving its goals.[3] Colloquially, the term "artificial intelligence" is often used to describe machines that mimic "cognitive" functions that humans associate with the human mind, such as "learning" and "problem solving".[4]</string>
+    <string name="CC">CloudComputing</string>
+    <string name="CCinfo">Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power,without direct active management by the user.arge clouds, predominant today, often have functions distributed over multiple locations from central servers. If the connection to the user is relatively close, it may be designated an edge server.
+Clouds may be limited to a single organization (enterprise clouds[4][5]), or be available to multiple organizations (public cloud).
+
+Cloud computing relies on sharing of resources to achieve coherence and economies of scale.</string>
+    <string name="IOT"> Internet of Things </string>
+    <string name="IOTinfo">The Internet of things (IoT) describes the network of physical objects—"things"—that are embedded with sensors, software,and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet.Things have evolved due to the convergence of multiple technologies, real-time analytics, machine learning, ubiquitous computing, commodity sensors, and embedded systems.[1] Traditional fields of embedded systems, wireless sensor networks, control systems, automation (including home and building automation), and others all contribute to enabling the Internet of things. In the consumer market, IoT technology is most synonymous with products pertaining to the concept of the "smart home", including devices and appliances (such as lighting fixtures, thermostats, home security systems and cameras, and other home appliances) that support one or more common ecosystems, and can be controlled via devices associated with that ecosystem, such as smartphones and smart speakers. </string>
+    <string name="title_activity_contactuspage">contactuspage</string>
+    <string name="title_activity_main5">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="send_your_message"><b>Send your message</b></string>
+    <string name="send_message"><b>Send Message</b></string>
+    <string name="email"><b>EMAIL</b></string>
+    <string name="subject"><b>Subject</b></string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="phone">+91xxxxxxxxxx</string>
+    <string name="send_to">SEND TO</string>
+    <string name="title_activity_registrationform">Registrationform</string>
+    <string
+        name="firstname"><b>FirstName</b></string>
+    <string name="name"><b>Name</b></string>
+    <string name="lastname"><b>LastName</b></string>
+    <string name="ai_cc_iot">AI/CC/IOT</string>
+    <string name="ai_artificial_intelligence_cc_cloudcomputing_iot_internetof_things">AI:ARTIFICIAL INTELLIGENCE,CC:CLOUDCOMPUTING,IOT:INTERNETOF THINGS</string>
+    <string name="register"><b>REGISTER</b></string>
+    <string name="enter_your_rollno_name_and_send_message_in_send_your_message"><b>ENTER YOUR ROLLNO,NAME AND SEND MESSAGE IN SEND_YOUR_MESSAGE</b></string>
+
+</resources>
