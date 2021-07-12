@@ -1,4 +1,4 @@
-package com.example.studentregistration
+package com.example.projectwork
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
