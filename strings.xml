@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">StudentRegistration</string>
-
+    <string name="app_name">Projectwork</string>
     <string name="http_gmail_com">http://gmail.com</string>
     <string name="sanafarooqui2002_gmail_com">sanafarooqui2002@gmail.com</string>
     <string name="login">login</string>
@@ -34,17 +33,28 @@ Cloud computing relies on sharing of resources to achieve coherence and economie
     <string name="send_message"><b>Send Message</b></string>
     <string name="email"><b>EMAIL</b></string>
     <string name="subject"><b>Subject</b></string>
-    <string name="enter_phone_number">Enter phone number</string>
-    <string name="phone">+91xxxxxxxxxx</string>
+    <string name="enter_phone_number"><b>Enter Gmail</b></string>
+    <string name="phone"><b>abc@gmail.com</b></string>
     <string name="send_to">SEND TO</string>
     <string name="title_activity_registrationform">Registrationform</string>
-    <string
-        name="firstname"><b>FirstName</b></string>
+    <string name="firstname"><b>FirstName</b></string>
     <string name="name"><b>Name</b></string>
     <string name="lastname"><b>LastName</b></string>
     <string name="ai_cc_iot">AI/CC/IOT</string>
     <string name="ai_artificial_intelligence_cc_cloudcomputing_iot_internetof_things">AI:ARTIFICIAL INTELLIGENCE,CC:CLOUDCOMPUTING,IOT:INTERNETOF THINGS</string>
     <string name="register"><b>REGISTER</b></string>
     <string name="enter_your_rollno_name_and_send_message_in_send_your_message"><b>ENTER YOUR ROLLNO,NAME AND SEND MESSAGE IN SEND_YOUR_MESSAGE</b></string>
+    <string name="title_activity_verification">Verification</string>
+    <string name="enter_otp"><b>Enter otp</b></string>
+    <string name="submit"><b>submit</b></string>
+    <string name="send_otp">Send OTP</string>
+    <string name="number">number</string>
+    <string name="title_activity_verify">Verify</string>
+    <string name="registration_form"><b>REGISTRATION</b></string>
+    <string name="fullname"><i>Full  Name</i></string>
+    <string name="roll_number"><i>Roll Number</i></string>
+    <string name="contact_number"><i>Contact Number</i></string>
+    <string name="address">Address</string>
+    <string name="enter_your_course"><b>Enter your Course</b></string>
 
 </resources>
