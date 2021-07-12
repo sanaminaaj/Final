@@ -8,7 +8,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/back3"/>
+        android:background="@color/back9">
+
+
+    </LinearLayout>
     <EditText
         android:id="@+id/text1"
         android:layout_width="wrap_content"
@@ -33,7 +36,7 @@
         android:textColor="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/back1"
+        android:backgroundTint="@color/button"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
