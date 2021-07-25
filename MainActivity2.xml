@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/re" />
+        android:background="@drawable/image6" />
 
     <Button
         android:id="@+id/button6"
@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:layout_marginTop="68dp"
-
+        android:backgroundTint="@color/yello"
+        android:textColor="@color/black"
         android:text="@string/admin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.219"
@@ -41,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
         android:layout_marginEnd="92dp"
-
+        android:backgroundTint="@color/yello"
+        android:textColor="@color/black"
         android:text="@string/student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
