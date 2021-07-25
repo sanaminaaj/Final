@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity5">
+    tools:context=".MainActivity3">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/back3"/>
+        android:background="@drawable/back6">
+    </LinearLayout>
     <EditText
         android:id="@+id/text1"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
         android:layout_marginTop="148dp"
         android:ems="10"
         android:hint="@string/name"
+        android:textColorHint="@color/red"
         android:textColor="@color/tex"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,10 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="256dp"
         android:text="@string/log"
-        android:textColor="@color/black"
+        android:backgroundTint="@color/yel"
+        android:textColor="@color/tex"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/back1"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -43,6 +45,7 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:hint="Password"
+        android:textColorHint="@color/red"
         android:inputType="textPassword"
 
         app:layout_constraintBottom_toTopOf="@+id/login"
