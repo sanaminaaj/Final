@@ -2,12 +2,15 @@ package com.example.projectwork
 
 import android.content.ContentValues
 import android.content.Context
+import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.view.View
 
-class DBHandler  // creating a constructor for our database handler.
+
+class DataBaseHelper  // creating a constructor for our database handler.
     (context: Context?) :
-    SQLiteOpenHelper(context, DB_NAME, null, 1) {
+    SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
     // below method is for creating a database by running a sqlite query
     override fun onCreate(db: SQLiteDatabase) {
         // on below line we are creating
@@ -33,25 +36,14 @@ class DBHandler  // creating a constructor for our database handler.
         courseDescription: String?,
         courseTracks: String?
     ) {
-
-        // on below line we are creating a variable for
-        // our sqlite database and calling writable method
-        // as we are writing data in our database.
         val db = this.writableDatabase
 
-        // on below line we are creating a
-        // variable for content values.
         val values = ContentValues()
-
-        // on below line we are passing all values
-        // along with its key and value pair.
         values.put(NAME_COL, courseName)
         values.put(DURATION_COL, courseDuration)
         values.put(DESCRIPTION_COL, courseDescription)
         values.put(TRACKS_COL, courseTracks)
 
-        // after adding all values we are passing
-        // content values to our table.
         db.insert(TABLE_NAME, null, values)
 
         // at last we are closing our
@@ -59,9 +51,11 @@ class DBHandler  // creating a constructor for our database handler.
         db.close()
     }
 
+
+
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         // this method is called to check if the table exists already.
-        db.execSQL("DROP TABLE IF EXISTS $TABLE_NAME")
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME)
         onCreate(db)
     }
 
@@ -69,8 +63,12 @@ class DBHandler  // creating a constructor for our database handler.
         // creating a constant variables for our database.
         // below variable is for our database name.
         private const val DB_NAME = "coursedb"
+
+        // below int is our database version
+        private const val DB_VERSION = 1
+
         // below variable is for our table name.
-        private const val TABLE_NAME = "mycourses"
+        public const val TABLE_NAME = "mycourses"
 
         // below variable is for our id column.
         private const val ID_COL = "id"
@@ -86,5 +84,11 @@ class DBHandler  // creating a constructor for our database handler.
 
         // below variable is for our course tracks column.
         private const val TRACKS_COL = "tracks"
+
+    }
+    fun delete():Int{
+        val a=readableDatabase
+        a.execSQL("delete from  table$TABLE_NAME")
+        return 0
     }
 }
