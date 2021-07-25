@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_700">#A4C6E4</color>
+   <color name="purple_700">#A4C6E4</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
-
     <color name="back8">#DD8C26</color>
     <color name="teal_800">#5E35B1</color>
     <color name="back1">#8DCC90</color>
@@ -25,7 +24,7 @@
     <color name="red">#EA2424</color>
     <color name="orange">#DD8C26</color>
     <color name="blue">#4719A5</color>
-    <color name="back5">#D8DD8B</color>
+    <color name="back5">#9CD6D0</color>
     <color name="pur">#5818D8</color>
     <color name="back6">#F6C85D</color>
     <color name="lightblue">#BBD6ED</color>
@@ -34,5 +33,11 @@
     <color name="back9">#E4B67C</color>
     <color name="button">#BC411B</color>
     <color name="yello">#FACC04</color>
-
+    <color name="splash">#084A44</color>
+    <color name="splashcol">#8E24AA</color>
+     <color name="blue2">#132FDF</color>
+ <color name="butt">#4F9BBF</color>
+ <color name="lightpink">#0A3A65</color>
+ <color name="yel">#E8E2C8</color>
+ <color name="grey">#8A8888</color>
 </resources>
