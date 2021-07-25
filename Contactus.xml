@@ -6,30 +6,17 @@
     android:orientation="vertical"
     android:padding="8dp"
     tools:context=".MainActivity"
-    android:background="@color/back6"
-    >
+    android:background="@drawable/contact1">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enter_your_rollno_name_and_send_message_in_send_your_message"
-        android:textColor="@color/red1"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/email"
-        android:textColor="@color/blue"
-        />
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/purple_200"/>
-
+        android:textColor="@color/grey"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/subject"
-        android:textColor="@color/blue"
+        android:textColor="@color/black"
         />
     <EditText
         android:id="@+id/editTextSubject"
@@ -40,19 +27,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/send_your_message"
-        android:textColor="@color/blue"
+        android:textColor="@color/black"
         />
+
     <EditText
         android:id="@+id/editTextMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="6"
-        />
+        android:lines="6" />
+
     <Button
         android:id="@+id/buttonSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send_message"
-        android:onClick="opengmail"
-        />
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+        android:text="@string/send_message" />
 </LinearLayout>
