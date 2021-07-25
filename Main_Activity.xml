@@ -41,9 +41,8 @@ class MainActivity : AppCompatActivity() {
         }
         button=findViewById(R.id.contactus)
         button.setOnClickListener(){
-
-            ShareCompat.IntentBuilder.from(this).setText("PLEASE ENTER YOUR ROLL NO AND MESSAGE HERE").setSubject("Problem about app").setEmailTo(arrayOf("sanafarooqui2002@gmail.com")).setChooserTitle("share to").setType("plain/text").startChooser()
-
-
-        } }
+           val intent=Intent(this,Contactus1::class.java)
+            startActivity(intent)
+        }
+    }
 }
