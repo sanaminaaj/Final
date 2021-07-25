@@ -13,18 +13,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@color/back5">
+            android:background="@drawable/back3">
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/about"
-                android:textColor="@color/orange"
+                android:textColor="@color/lightpink"
                 android:textSize="60sp"
-
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
@@ -32,26 +33,28 @@
                 android:layout_marginTop="40dp"
                 android:text="@string/AI"
 
-                android:textColor="@color/purple_700"
+                android:textColor="@color/tex"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView15"  />
+
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="@string/AIinfo"
-                android:textColor="@color/gree"
+                android:textColor="@color/lightpink"
                 app:layout_constraintTop_toBottomOf="@+id/textView13"
                 tools:layout_editor_absoluteX="0dp" />
+
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="72dp"
                 android:text="@string/CC"
-                android:textColor="@color/back1"
+                android:textColor="@color/tex"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -62,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
                 android:text="@string/CCinfo"
-                android:textColor="@color/tex"
+                android:textColor="@color/lightpink"
                 app:layout_constraintTop_toBottomOf="@+id/textView16"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -72,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="44dp"
                 android:text="@string/IOT"
-                android:textColor="@color/teal_800"
+                android:textColor="@color/tex"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17"/>
@@ -83,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
                 android:text="@string/IOTinfo"
-                android:textColor="@color/red"
+                android:textColor="@color/lightpink"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView18"
                 app:layout_constraintVertical_bias="0.058"
