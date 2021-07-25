@@ -8,9 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/back9">
-
-
+        android:background="@drawable/image1">
     </LinearLayout>
     <EditText
         android:id="@+id/text1"
@@ -32,11 +30,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="256dp"
         android:text="@string/log"
-
-        android:textColor="@color/purple_700"
+        android:backgroundTint="@color/butt"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/button"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
